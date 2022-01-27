@@ -1,0 +1,43 @@
+double GPS[3];
+double MAG[1];
+double ACCL[3];
+void setup()
+{
+  SetGoal();
+  Initalize();
+}
+void loop() 
+{
+  // put your main code here, to run repeatedly:
+
+}
+  //Get GPS position of rocket and report back.
+
+void GetGPS()
+{
+  
+}
+  //Get Magnetometer data (compass) of rocket and report back.
+
+void GetMAG()
+{
+    return 0;
+}
+  //Get accelleration of rocket and report back.
+void GetACCL()
+{
+  return 0;
+}
+  //set landing goal. lat is Latttitude, Long is Longitude, Alt is altitude, store in double or float because of GPS cords. 
+void SetGoal()
+{
+  double Lat = 0;
+  double Long = 0;
+  double Alt = 0;
+  double cordinates[] = {Lat, Long, Alt};
+}
+  //test equipment do initialization of sensors. return false if there is an error, true if green.
+boolean Initalize()
+{
+  return false;
+}
